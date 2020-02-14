@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="home.html">Home</a>
+  <a class="active" href="Portfolio.html">Portfolio</a>
+  <a href="contact.html">Contact</a>
+  <a href="about.html">About</a>
+</div>
+
+<div style="padding-left:16px">
+  <h1>Contact Me</h1>
+  <br>
+  <address>18993 Bristol Rd,<br> Philippi<br> 7750</address>
+  
+</div>
+<h2>CONTACT FORM</h2><br>
+<div class="container">
+
+  <form id="contactForm">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." required="">
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required="">
+    <label for="Email">Email</label>
+    <input type="text" id="email" name="email" placeholder="Your email address.." required="">
+    <label for="phone">Phone</label>
+    <input type="text" id="tel" name="phone" placeholder="Your phone number..">
+       <label for="subject">Message</label>
+    <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+    <div class="g-recaptcha" data-sitekey="6LeZjtgUAAAAAOuFe91zTjVNcAc9hMmEfFzGRRjf"></div>
+    <input type="submit" value="Send">
+  </form>
+<br>
+
+
+
+
+<div class="footer">
+         
+  <a href="https://www.facebook.com/sihle.higa?ref-bookmarks" target="_blank"><img src="facb.jfif" alt="facebook" type="width:100px, height:100px"></a></li>
+  <a href="https://www.instagram.com/?hl=en" target="_blank"><img src="insta.jfif" alt="instagram" type="width:100px, height:100px"></a></li>
+  <a href="https://www.linkedin.com/company/linkedin/" target="_blank"><img src="link.png" alt="linkedin" type="width:100px, height:100px"></a></li>
+  <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank"><img src="gmail.png" alt="gmail" type="width:100px, height:100px"></a></li>  
+  <a href="https://slack.com/intl/en-za/" target="_blank"><img src="slack.jfif" alt="slack" type="width:100px, height:100px"></a></li>  
+</div>
+
+</body>
+
+<script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-database.js"></script>
+		<script src="main.js"> </script>
+</html>
